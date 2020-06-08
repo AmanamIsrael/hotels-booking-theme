@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us</title>
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/contact.css">
-</head>
-<body>
-    <h1>Contact Us Page</h1>
-</body>
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="openingwriteup">
+        <h3>Contact Us</h3>
+        <p>We'd love to hear from you</p>
+      </div>
+      <div class="contactmethods">
+        <div class="contactdata">
+          <h3>Address</h3>
+          <p><i class="fas fa-map-marker-alt"></i>&nbsp &nbsp6, kingsway , ikoyi</p>
+          <h3>Phone</h3>
+          <p><i class="fas fa-phone-alt"></i>+234 70 6753 3421</p>
+            <p>&nbsp &nbsp +234 50 6453 4421</p>
+          <h3>Email</h3>
+          <p<i class="far fa-envelope"></i>&nbsp &nbspEnquiries@romaniahotels.com</p>
+        </div>
+        <div class="contactform">
+          <form action="">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Full Name" />
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" />
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" placeholder="Phone number" />
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="closingwriteup">
+        <h3>Begin your amazing experience here</h3>
+        <p>send your particulars here</p>
+        <button onclick="submit">Book Now</button>
+      </div>
+    </div>
+  </body>
 </html>
