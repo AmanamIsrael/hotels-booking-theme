@@ -5,7 +5,7 @@
     --light-primary: #f8885a;
     --secondary: #E5E5E5;
     --dark: #2F3239;
-    --slant-background:  #fbbb5a; opacity: 7%;
+    --slant-background:  #fbbb5a;
 }
 .text-primary{
     color: var(--primary);
