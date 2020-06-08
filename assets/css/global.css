@@ -1,4 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary: #EB4501;
+    --light-primary: #f8885a;
+    --secondary: #E5E5E5;
+    --dark: #2F3239;
+    --slant-background:  #fbbb5a; opacity: 7%;
+}
+.text-primary{
+    color: var(--primary);
+}
+.bg-primary{
+    background: var(--primary);
+}
+.text-light-primary{
+    color: var(--light-primary);
+}
+.bg-light-primary{
+    color: var(--light-primary)
+}
+.text-secondary{
+    color: var(--secondary);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.text-dark{
+    color: var(--dark);
+}
+.bg-dark{
+    background-color: var(--dark)
+}
+.bg-slant-background{
+    background-color: var(--slant-background);
+}
 *{
     box-sizing: border-box;
 }
@@ -6,4 +41,7 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+button{
+    background: linear-gradient(180deg, #F8885A 0%, #EB4501 100%);
 }
