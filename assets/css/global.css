@@ -6,6 +6,7 @@
     --secondary: #E5E5E5;
     --dark: #2F3239;
     --slant-background:  #fbbb5a;
+    --light: #FCFCFC;
 }
 .text-primary{
     color: var(--primary);
@@ -34,6 +35,9 @@
 .bg-slant-background{
     background-color: var(--slant-background);
 }
+.text-light {
+    color: var(--light);
+}
 *{
     box-sizing: border-box;
 }
@@ -45,3 +49,78 @@ body, html{
 button{
     background: linear-gradient(180deg, #F8885A 0%, #EB4501 100%);
 }
+
+/* navbar css */
+nav{
+    padding: .5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+}
+nav > .inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brand{
+    width: 100px;
+}
+.brand > img{
+    width: 100%;
+}
+ul,a, li{
+    text-decoration: none;
+}
+ul > li{
+   display: inline;
+}
+ul > li:not(:last-child){
+    margin-right: 1.5rem;
+}
+#toggle{
+    display: none;
+    float: right;
+    border: 0 !important;
+}
+.show{
+    display: block !important;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+footer > .copyright > h4{
+    font-weight: normal;
+}
+footer > .socials > i{
+    margin: .5em;
+}
+
+@media screen and (max-width: 600px) {
+    .links{
+        display: none;
+        width: 85%;
+        z-index: 999;
+        position: absolute;
+        top: 60px;
+        background-color: var(--dark);
+    }
+    #toggle {
+      display: block;
+    }
+    ul > li {
+        display: block;
+        text-align: left;
+    }
+    ul{
+        padding: 0;
+    }
+    ul > li {
+        padding: .5em 1em;
+        margin: 0;
+    }
+    
+  }

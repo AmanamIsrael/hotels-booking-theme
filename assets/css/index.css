@@ -1,1 +1,36 @@
-/* homepage styles go here */
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/hero\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(43, 43, 43, 0.589);
+    height: 652px
+}
+.hero-section{
+    margin-top: 10rem;
+    padding: 0 3rem;
+}
+.hero-section > h3 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.hero-section > h1{
+    margin-top: 0;
+    font-size: 48px;
+    width: 500px;
+}
+@media screen and (max-width: 600px){
+    section{
+        height: 262px;
+    }
+    .hero-section{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .hero-section > h1{
+        font-size: 18px;
+        width: auto;
+    }
+}
