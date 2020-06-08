@@ -86,6 +86,7 @@ ul > li:not(:last-child){
 .show{
     display: block !important;
 }
+/* footer css */
 footer{
     display: flex;
     align-items: center;
