@@ -123,5 +123,8 @@ footer > .socials > i{
         padding: .5em 1em;
         margin: 0;
     }
+    footer{
+        flex-direction: column;
+    }
     
   }
