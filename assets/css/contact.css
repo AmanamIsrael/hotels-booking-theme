@@ -37,14 +37,14 @@ body {
 }
 .closingwriteup {
   /* background-color: red; */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgb(104, 86, 86),
       rgb(89, 89, 104),
-      transparent
-    ),
-    url("../images/footerimg.jpg");
+      transparent 
+    ), */
+  background-image: url("../images/footerimg.jpg");
   background-repeat: no-repeat;
-  color: rgb(110, 105, 105);
+  color: rgb(255, 255, 255);
   background-size: cover;
   height: 23rem;
   width: 85rem;
@@ -59,7 +59,7 @@ form {
   width: 30rem;
   border: none;
   border-radius: 2px;
-  box-shadow: 0 4px 3px 1px rgb(77, 73, 73);
+  box-shadow: 0 4px 2px 1px rgb(102, 98, 98);
 }
 /* .contactdata {
   margin-right: 200px;
@@ -69,10 +69,11 @@ form {
 } */
 
 button {
-  padding: 0.5rem;
   border: none;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
+  height: 3rem;
+  width: 6rem;
 }
 .information {
   margin-bottom: 4rem;
@@ -95,4 +96,8 @@ input {
 }
 label {
   margin-right: 10rem;
+}
+.sendbutton {
+  margin-right: 14rem;
+  margin-top: 2rem;
 }
