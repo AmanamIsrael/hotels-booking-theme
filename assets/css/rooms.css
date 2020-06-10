@@ -1,10 +1,7 @@
 
-.container {
-
-    margin: auto 63px auto 102px;
-    overflow: hidden;
+body {
+    overflow-x: hidden;
 }
-
 header {
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0,0,0.6)),
@@ -37,6 +34,7 @@ header .logo {
 header .logo h1 {
     margin: 0;
     font-size: 24px;
+    margin-left: 102px;
 }
 
 header nav {
@@ -47,7 +45,8 @@ header nav {
 header .header-text h1 {
     font-size: 36px;
     text-align: center;
-    margin: 117px 0px 90px 0px;
+    padding: 90px 0 90px 0;
+   
 }
 
 .clr {
@@ -70,6 +69,7 @@ footer h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
+    padding-top: 90px;
 }
 
 footer p {
@@ -98,6 +98,7 @@ span {
     margin-top: 135px;
     width: 747px;
     height: 707px;
+    margin-left: 102px;
 }
 
 .room-1-details {
@@ -132,12 +133,12 @@ span {
     height: 510px;
     background: #FFFFFF;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
-    margin-left: 52px;
+    margin-left: 102px;
 }
 
 .room-2-image img{
     margin-top: 150px;
-    width: 847px;
+    width: 747px;
     height: 807px;
     margin-left: 400px;
 }
@@ -150,6 +151,7 @@ span {
     margin-top: 235px;
     width: 747px;
     height: 707px;
+    margin-left: 102px;
 }
 
 .room-3-details {
