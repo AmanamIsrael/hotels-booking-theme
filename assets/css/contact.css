@@ -1,1 +1,103 @@
 /* contact styles go here */
+* {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(252, 248, 248);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.openingwriteup {
+  /* background-color: red; */
+  background-image: url("../images/heroimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+  width: 85rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactmethods {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(252, 248, 248);
+  height: 40rem;
+  width: 85rem;
+  align-items: stretch;
+  padding-left: 1rem;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+.closingwriteup {
+  /* background-color: red; */
+  /* background-image: linear-gradient(
+      rgb(104, 86, 86),
+      rgb(89, 89, 104),
+      transparent 
+    ), */
+  background-image: url("../images/footerimg.jpg");
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  height: 23rem;
+  width: 85rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+form {
+  display: block;
+  margin: 0 auto;
+  height: 36rem;
+  width: 30rem;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 4px 2px 1px rgb(102, 98, 98);
+}
+/* .contactdata {
+  margin-right: 200px;
+}
+.contactform {
+  margin-left: 200px;
+} */
+
+button {
+  border: none;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  height: 3rem;
+  width: 6rem;
+}
+.information {
+  margin-bottom: 4rem;
+}
+.contactUsText {
+  margin-top: 8rem;
+}
+.closingremark {
+  margin-top: 8rem;
+}
+input {
+  display: block;
+  height: 3rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 2px solid rgb(77, 73, 73);
+  margin-left: 5rem;
+}
+label {
+  margin-right: 10rem;
+}
+.sendbutton {
+  margin-right: 14rem;
+  margin-top: 2rem;
+}
