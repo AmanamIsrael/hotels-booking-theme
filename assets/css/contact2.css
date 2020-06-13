@@ -1,0 +1,527 @@
+Variables 
+:root{
+    --buttons: #EB4501;
+    --blackp: #2F3239;
+    --whiteph: #E5E5E5;
+    --opacity: #f8885a;
+    --white: white;
+}
+ Reset 
+
+body,p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+ 
+/* base styles*/ 
+body{
+    background: white;
+    overflow-x: hidden;
+    font-family: Poppins;
+    min-height: 1000px;
+    min-width: 100px;
+    margin: 0
+}
+
+#menu img{width: 100%;
+    justify-content: center;
+    filter: brightness(60%);
+    background-repeat: no-repeat;
+}
+
+.CU{
+    text-align: center;
+    color: #2F3239;
+    letter-spacing: 0.1rem; 
+     top: 150px;
+
+}
+.p,.h1{ 
+    letter-spacing: 0.1rem;
+    color: #2F3239;
+
+}
+#white-box{
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 4px #E5E5E5;
+}
+.details{
+box-sizing: border-box;
+font-weight: 1.1rem;
+font-size: 1rem;
+letter-spacing: 0.1rem;
+text-align: center;
+display: inline-block;
+}
+.DAM-box{
+background: white;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.DAM-box h3{
+    font-size: 1.5rem;
+}
+.input-box{
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+.submit-btn{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: Poppins;
+    background: #EB4501;
+    border: 2px;
+    border-radius: 2px;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+}
+.submit-btn:hover,.submit-btn:focus{
+    background: #F8885A;
+    transition: 0.2s;
+}
+
+#footer img{
+    width: 100%;
+    justify-content: center;
+    filter: brightness(60%);
+    background-repeat: no-repeat;
+}
+.end{
+    text-align: center;
+    
+    color: #2F3239;
+
+    letter-spacing: 0.1rem;
+    border-spacing: 100px;
+    font-size: 1.5rem;
+}
+.submit-btn-btn{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: Poppins;
+    background: #EB4501;
+    border: 2px;
+    border-radius: 2px;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .grid {
+        width: 23.3%;
+    }
+
+        
+}
+
+@media screen and (min-width: 1200px) {
+    .grid {
+        width: 31%;
+    }
+}
+
+
+
+@media  screen  and (min-width: 960px) {
+  
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #menu img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        
+    }
+
+    .CU{
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        position: relative;
+    }
+   
+    #white-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 700px;
+         position: relative;
+    }
+    .details{
+     grid-row: 1;
+     grid-column: 1;
+     position: relative;
+    width: 240px;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-synthesis: weight(bold);
+    }
+    .DAM-box{
+     grid-row: 1;
+    grid-column: 2;
+    position: relative;
+    width: 480px;
+    height: 400px;
+    padding-top: 20px;
+    top: 20px;
+    padding-left: 2rem;
+    }
+    .input-box{
+        margin: 20px auto;
+        margin-bottom: 9px;
+        padding: 15px;
+        width: 270px;
+        height: 34px;
+    }
+    .submit-btn{
+        margin-bottom: 68px;
+    }
+    .submit-btn:hover,.submit-btn:focus{
+        background: #F8885A;
+        transition: 0.2s;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #footer img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+    }
+    .end{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        bottom: 0.1rem;
+        top: 120px;
+    }
+    .submit-btn-btn{
+        margin-bottom: 68px;
+    }
+    
+
+    
+}
+
+@media screen and (min-width: 620px){
+    
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #menu img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        
+    }
+
+    .CU{
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        position: relative;
+        color: #E5E5E5;
+    }
+   
+    #white-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 500px;
+        width: 620px;
+        position: relative;
+    }
+    .details{
+        grid-row: 1;
+        grid-column: 1;
+     position: relative;
+    width: 170px;
+    padding-left: 1rem;
+    }
+    .DAM-box{
+        grid-row: 1;
+        grid-column: 2;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+    top: 20px;
+    padding-left: 2rem;
+    }
+    .input-box{
+        margin: 20px auto;
+        margin-bottom: 9px;
+        padding: 15px;
+        width: 270px;
+        height: 34px;
+    }
+    .submit-btn{
+        margin-bottom: 68px;
+    }
+    .submit-btn:hover,.submit-btn:focus{
+        background: #F8885A;
+        transition: 0.2s;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #footer img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+    }
+    .end{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        bottom: 0.1rem;
+        top: 120px;
+        color: #E5E5E5;
+    }
+    .submit-btn-btn{
+        margin-bottom: 68px;
+    }
+    
+
+}
+/*@media screen  and (width: 460px){
+    body,p, .container{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        
+    }
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #menu img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        filter: brightness(60%);
+        background-repeat: no-repeat;
+    }
+
+    .CU{
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        position: relative;
+        color: #E5E5E5;
+        top: 150px;
+        letter-spacing: 0.1rem;
+    }
+    .p,.h1{ 
+        letter-spacing: 0.1rem;
+    
+    }
+    #white-box{
+       
+        grid-template-columns: 1fr;
+        background: white;
+        box-shadow: 0 2px 4px #E5E5E5;
+        height: 970px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .details{
+    grid-column: 1;
+    grid-row: 1;
+     position: relative;
+    box-sizing: border-box;
+    width: 170px;
+    padding-left: 1rem;
+    font-weight: 1rem;
+    font-size: 1rem;
+    }
+    .DAM-box{
+    grid-column: 1;
+    grid-row: 2;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 200px;
+    height: 400px;
+    padding-top: 20px;
+    top: 20px;
+  
+    }
+    .DAM-box h3{
+        font-size: 1.5rem;
+    }
+    .input-box{
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 20px auto;
+        margin-bottom: 9px;
+        padding: 15px;
+        width: 197px;
+        height: 32px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #aaa;
+        font-weight: 400;
+        font-size: 15px;
+        transition: 0.2s ease;
+    }
+    .submit-btn{
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s;
+        font-family: Poppins;
+        background: #EB4501;
+        border: 2px;
+        border-radius: 2px;
+        margin-bottom: 68px;
+        width: 120px;
+        height: 32px;
+        text-align: center;
+    }
+    .submit-btn:hover,.submit-btn:focus{
+        background: #F8885A;
+        transition: 0.2s;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #footer img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        filter: brightness(60%);
+        background-repeat: no-repeat;
+    }
+    .end{
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        position: relative;
+        color: #E5E5E5;
+        bottom: 0.1rem;
+        letter-spacing: 0.1rem;
+       
+        border-spacing: 100px;
+        font-size: 1rem;
+    }
+    .submit-btn-btn{
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s;
+        font-family: Poppins;
+        background: #EB4501;
+        border: 2px;
+        border-radius: 2px;
+        margin-bottom: 68px;
+        width: 120px;
+        height: 32px;
+        text-align: center;
+    }
+    
+} 
+@media screen  and (min-width: 220px){
+    body,p, .container{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        
+    }
+   
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #menu img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+    }
+
+    .CU{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        top: 150px;
+    }
+    
+    #white-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 970px;
+        width: 220px;
+        position: relative;
+    }
+    .details{
+    grid-column: 1;
+    grid-row: 1;
+     position: relative;
+    width: 170px;
+    padding-left: 1rem;
+    }
+    .DAM-box{
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    width: 200px;
+    height: 400px;
+    padding-top: 20px;
+    top: 20px;
+  
+    }
+    .input-box{
+        display: inline-block;
+        margin: 20px auto;
+        margin-bottom: 9px;
+        padding: 15px;
+        width: 197px;
+        height: 32px;
+    }
+    .submit-btn{
+        margin-bottom: 68px;
+    }
+    .submit-btn:hover,.submit-btn:focus{
+        background: #F8885A;
+        transition: 0.2s;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #footer img{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+    }
+    .end{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;;
+        bottom: 0.1rem;
+    }
+    .submit-btn-btn{
+        margin-bottom: 68px;
+    }
+    
+
+}
